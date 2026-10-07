@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+*.log
+
+# RS256 key pair — inject on deploy, never commit
+src/resources/keys/*.pem
+
+# bun
+bun.lockb
